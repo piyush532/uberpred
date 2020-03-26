@@ -28,5 +28,5 @@ def predict():
 
 
 if __name__ == '__main__':
-	app.run(debug=True)#in devlopment phase we always
+	app.run(host='0.0.0.0',port=8080)#in devlopment phase we always
 
